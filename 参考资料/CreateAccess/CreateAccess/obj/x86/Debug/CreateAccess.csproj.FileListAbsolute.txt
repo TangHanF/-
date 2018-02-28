@@ -1,0 +1,11 @@
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\bin\Debug\CreateAccess.exe
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\bin\Debug\CreateAccess.pdb
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\obj\x86\Debug\CreateAccess.Form1.resources
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\obj\x86\Debug\CreateAccess.Properties.Resources.resources
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\obj\x86\Debug\CreateAccess.exe
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\obj\x86\Debug\CreateAccess.pdb
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\obj\x86\Debug\Interop.ADOX.dll
+F:\Code 2010\VS 2010\小功能\CreateAccess\CreateAccess\obj\x86\Debug\CreateAccess.csproj.ResolveComReference.cache

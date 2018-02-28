@@ -1,0 +1,61 @@
+登陆界面的配置文件：
+
+[infomation]
+is_Edited=yes
+DB_Pwd=G+WR5k/Hx+plaUhTzqCMxA==
+
+[main]
+user_name=
+user_pwd=
+login_type=管理员\普通用户
+remeber_pwd=boolean
+auto_login=boolean
+auto_cancle=boolean 记录自动登陆的时候用户是否取消过
+
+	窗体一加载首先从配置文件读取数据   load事件
+	如果用户选中了记住密码，则明文将该用户名、登录类型写入配置文件，加密用户密码写入配置文件。
+	写入配置文件的时机：复选框选择时。注意，如果信息输入不完整则提示用户
+	自动登录：设置窗体的默认按钮，再sendKey。
+	登陆后显示加载中动画，双击取消自动登录，并将配置文件的auto_cancle=true 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+string pwd = new Encrypt().ToEncrypt(txtUserPwd.Text);//首先将用户密码进行加密
+//如果用户信息完整：
+if (combUserName.Text != "" || txtUserPwd.Text != "" || comboBox1.Text != "选择登录权限")
+{
+	if (ckAutoLogin.Checked)//如果选择了自动登录则：
+	{
+	   
+		WritePrivateProfileString("main", "user_name", combUserName.Text, Application.StartupPath + @"\config\config.ini");
+		WritePrivateProfileString("main", "user_pwd", pwd, Application.StartupPath + @"\config\config.ini");
+		WritePrivateProfileString("main", "login_type", comboBox1.Text, Application.StartupPath + @"\config\config.ini");
+		WritePrivateProfileString("main", "auto_login", "true", Application.StartupPath + @"\config\config.ini");//是否自动登录：是
+		WritePrivateProfileString("main", "remeber_pwd", "true", Application.StartupPath + @"\config\config.ini");//是否记住密码：是
+	}
+	else
+	{
+		WritePrivateProfileString("main", "user_name", combUserName.Text, Application.StartupPath + @"\config\config.ini");
+		WritePrivateProfileString("main", "user_pwd", pwd, Application.StartupPath + @"\config\config.ini");
+		WritePrivateProfileString("main", "login_type", comboBox1.Text, Application.StartupPath + @"\config\config.ini");
+		WritePrivateProfileString("main", "auto_login", "true", Application.StartupPath + @"\config\config.ini");//是否自动登录：是
+		WritePrivateProfileString("main", "remeber_pwd", "true", Application.StartupPath + @"\config\config.ini");//是否记住密码：是
+	}
+}
+//如果不完整：
+else
+{
+	MessageBox.Show("请将信息输入完整：用户名、密码以及登录类型", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+}

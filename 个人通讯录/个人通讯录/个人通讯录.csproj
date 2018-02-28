@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FE32BFEA-A58A-4D4D-936B-7761601C7CB1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>个人通讯录</RootNamespace>
+    <AssemblyName>个人通讯录</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>通讯录.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin4">
+      <HintPath>..\..\..\VS窗体美化皮肤\IrisSkin4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Paway.Windows.Forms">
+      <HintPath>C:\Users\THF\Desktop\Paway.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Paway.Windows.Helper">
+      <HintPath>C:\Users\THF\Desktop\Paway.Windows.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Paway.Windows.Resource">
+      <HintPath>C:\Users\THF\Desktop\Paway.Windows.Resource.dll</HintPath>
+    </Reference>
+    <Reference Include="Paway.Windows.Win32">
+      <HintPath>C:\Users\THF\Desktop\Paway.Windows.Win32.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutSoftware_From.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutSoftware_From.Designer.cs">
+      <DependentUpon>AboutSoftware_From.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddGroup_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddGroup_Form.Designer.cs">
+      <DependentUpon>AddGroup_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUsers_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUsers_Form.Designer.cs">
+      <DependentUpon>AddUsers_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputDBPwd_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputDBPwd_Form.Designer.cs">
+      <DependentUpon>InputDBPwd_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loding_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loding_Form.Designer.cs">
+      <DependentUpon>Loding_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lx.Designer.cs">
+      <DependentUpon>Lx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.cs">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SoftOption_From.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoftOption_From.Designer.cs">
+      <DependentUpon>SoftOption_From.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin_From.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogin_From.Designer.cs">
+      <DependentUpon>UserLogin_From.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserPwdEdit_From.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserPwdEdit_From.Designer.cs">
+      <DependentUpon>UserPwdEdit_From.cs</DependentUpon>
+    </Compile>
+    <Compile Include="登录.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登录.Designer.cs">
+      <DependentUpon>登录.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutSoftware_From.resx">
+      <DependentUpon>AboutSoftware_From.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddGroup_Form.resx">
+      <DependentUpon>AddGroup_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUsers_Form.resx">
+      <DependentUpon>AddUsers_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputDBPwd_Form.resx">
+      <DependentUpon>InputDBPwd_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loding_Form.resx">
+      <DependentUpon>Loding_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lx.resx">
+      <DependentUpon>Lx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoftOption_From.resx">
+      <DependentUpon>SoftOption_From.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogin_From.resx">
+      <DependentUpon>UserLogin_From.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPwdEdit_From.resx">
+      <DependentUpon>UserPwdEdit_From.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登录.resx">
+      <DependentUpon>登录.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="bin\Debug\skin\MacOS.ssk" />
+    <None Include="bin\Debug\skin\Page.ssk" />
+    <None Include="bin\Debug\skin\Wave.ssk" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\注册顶部.png" />
+    <None Include="Resources\注册界面背景.png" />
+    <None Include="Resources\会员登录-men.png" />
+    <None Include="Resources\门.png" />
+    <None Include="Resources\个人通讯录登录.gif" />
+    <None Include="Resources\11004543a-10.jpg" />
+    <Content Include="bin\Debug\img\1.jpg" />
+    <Content Include="bin\Debug\img\0.jpg" />
+    <None Include="Resources\1_点燃.jpg" />
+    <None Include="Resources\不通过.png" />
+    <Content Include="Resources\修改.png" />
+    <None Include="Resources\切换用户.png" />
+    <None Include="Resources\关于.png" />
+    <Content Include="Resources\删除.png" />
+    <None Include="Resources\压缩.png" />
+    <None Include="Resources\备份.png" />
+    <None Include="Resources\导出.png" />
+    <None Include="Resources\导入.png" />
+    <None Include="Resources\加载中 %282%29.gif" />
+    <None Include="Resources\刷新1.png" />
+    <None Include="Resources\刷新2.png" />
+    <None Include="Resources\意见反馈.png" />
+    <Content Include="Resources\折叠.png" />
+    <Content Include="Resources\折叠2.png" />
+    <None Include="Resources\放弃修改.png" />
+    <Content Include="Resources\新增.png" />
+    <None Include="Resources\未标题-11.png" />
+    <Content Include="Resources\查看搜索.png" />
+    <None Include="Resources\退出.png" />
+    <None Include="Resources\注销.png" />
+    <None Include="Resources\默认位置.png" />
+    <None Include="Resources\自定义位置.png" />
+    <None Include="Resources\重构数据库.png" />
+    <None Include="Resources\锁.png" />
+    <None Include="Resources\通过.png" />
+    <None Include="Resources\清空.png" />
+    <None Include="Resources\设置.png" />
+    <Content Include="用户.ico" />
+    <Content Include="通讯录.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StusContactB\StusContactB.csproj">
+      <Project>{56D8F21F-27DB-4154-B9EA-545EF208A575}</Project>
+      <Name>StusContactB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StusContactD\StusContactD.csproj">
+      <Project>{86F6A6B4-7938-4AC7-B754-443D66EAE3B0}</Project>
+      <Name>StusContactD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StusContactE\StusContactE.csproj">
+      <Project>{481E0B87-A2E7-43E9-9603-3450D6C940D6}</Project>
+      <Name>StusContactE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StusTools\StusTools.csproj">
+      <Project>{92F74C79-028B-4CA1-BF33-063E47869722}</Project>
+      <Name>StusTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{2A75196C-D9EB-4129-B803-931327F72D5C}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="JRO">
+      <Guid>{AC3B8B4C-B6CA-11D1-9F31-00C04FC29D52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\linkD\" />
+    <Folder Include="bin\Debug\source\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

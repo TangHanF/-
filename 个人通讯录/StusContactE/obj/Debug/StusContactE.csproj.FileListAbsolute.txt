@@ -1,0 +1,15 @@
+D:\C#\个人通讯录实训\个人通讯录\StusContactE\bin\Debug\StusContactE.dll
+D:\C#\个人通讯录实训\个人通讯录\StusContactE\bin\Debug\StusContactE.pdb
+D:\C#\个人通讯录实训\个人通讯录\StusContactE\obj\Debug\StusContactE.dll
+D:\C#\个人通讯录实训\个人通讯录\StusContactE\obj\Debug\StusContactE.pdb
+D:\C#\个人通讯录实训\个人通讯录\StusContactE\obj\Debug\StusContactE.csprojResolveAssemblyReference.cache
+E:\C#\个人通讯录实训\个人通讯录\StusContactE\bin\Debug\StusContactE.dll
+E:\C#\个人通讯录实训\个人通讯录\StusContactE\bin\Debug\StusContactE.pdb
+E:\C#\个人通讯录实训\个人通讯录\StusContactE\obj\Debug\StusContactE.dll
+E:\C#\个人通讯录实训\个人通讯录\StusContactE\obj\Debug\StusContactE.pdb
+E:\C#\个人通讯录实训\个人通讯录\StusContactE\obj\Debug\StusContactE.csprojResolveAssemblyReference.cache
+F:\C#\个人通讯录实训\个人通讯录\StusContactE\bin\Debug\StusContactE.dll
+F:\C#\个人通讯录实训\个人通讯录\StusContactE\bin\Debug\StusContactE.pdb
+F:\C#\个人通讯录实训\个人通讯录\StusContactE\obj\Debug\StusContactE.csprojResolveAssemblyReference.cache
+F:\C#\个人通讯录实训\个人通讯录\StusContactE\obj\Debug\StusContactE.dll
+F:\C#\个人通讯录实训\个人通讯录\StusContactE\obj\Debug\StusContactE.pdb

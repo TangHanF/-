@@ -1,0 +1,24 @@
+#region 启动渐显过渡动画
+double _opacity = 0.05;
+private void timer1_Tick(object sender, EventArgs e)
+{
+	this.Opacity += _opacity;
+	timer2.Start();
+	if (this.Opacity == 1)
+	{
+		timer1.Stop();
+	}
+}
+//405, 277
+private void timer2_Tick(object sender, EventArgs e)
+{
+	if (this.Height < 277)
+	{
+		this.Height += 30;
+	}
+	else
+	{
+		timer2.Stop();
+	}
+}
+#endregion
